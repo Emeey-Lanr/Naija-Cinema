@@ -1,0 +1,189 @@
+.allmovies {
+    width: 100%;
+    background-color: #131313;
+    padding: 30px 0;
+}
+
+.topmovies {
+    width: 85%;
+    margin: auto;
+}
+
+.topmovies h1 {
+    color: white;
+    font-weight: 400;
+}
+
+.topmoviessect {
+    width: 100%;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 20% 20% 20% 20%;
+    padding-top: 40px;
+}
+
+.topmoviessect>div {
+    border: 1px solid #363636fb;
+    height: 50vh;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.movie1 {
+    background: url(../Images/blood.webp);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+
+}
+
+.movie2 {
+    background: url(../Images/expen.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+
+}
+
+.movie3 {
+    background: url(../Images/real.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+
+}
+
+.movie4 {
+    background: url(../Images/citation.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+
+}
+
+
+.movie1back {
+    width: 100%;
+    height: 48vh;
+    background: linear-gradient(to right, #00000054, #000000c5);
+    padding: 6px;
+}
+
+.movie1:hover {
+    transition: 1s all ease-out;
+    position: relative;
+    transform: translateY(-20px);
+    width: 130%;
+    margin: 0 auto;
+
+
+}
+
+.rating {
+    color: white;
+    background-color: #42be42;
+    width: 40px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.moviedetails {
+    display: flex;
+    align-items: flex-end;
+    height: 40vh;
+}
+
+.moviedetails h3 {
+    color: white;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.moviedetails>div span {
+    color: white;
+
+}
+
+.moviedetails>div .views {
+    color: white;
+    padding-right: 10px;
+    font-size: 0.9rem;
+}
+
+@media (max-width:1307px) {
+    .topmovies {
+        width: 90%;
+        margin: auto;
+    }
+
+    .moviedetails h3 {
+
+        font-size: 1.2rem;
+    }
+
+}
+
+@media (max-width:1100px) {
+
+    .topmoviessect {
+        grid-template-columns: 22% 22% 22% 22%;
+    }
+
+}
+
+@media (max-width:1000px) {
+    .topmovies h1 {
+        font-weight: 1.2rem;
+        text-align: center;
+    }
+
+    .topmoviessect {
+        justify-content: space-evenly;
+        grid-template-columns: 30% 30%;
+    }
+
+    .topmoviessect>div {
+        margin-bottom: 40px;
+    }
+
+
+
+}
+
+@media (max-width:675px) {
+
+    .topmoviessect {
+        justify-content: space-evenly;
+        grid-template-columns: 40% 40%;
+    }
+
+
+}
+
+@media (max-width:500px) {
+    .topmovies {
+        width: 100%;
+        margin: auto;
+    }
+
+    .topmoviessect {
+        justify-content: space-evenly;
+        grid-template-columns: 46% 46%;
+    }
+
+
+}
+
+@media (max-width:360px) {
+    .topmovies {
+        width: 100%;
+        margin: auto;
+    }
+
+    .topmoviessect {
+        justify-content: center;
+        grid-template-columns: 80%;
+    }
+
+
+}

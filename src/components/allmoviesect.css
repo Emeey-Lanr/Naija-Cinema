@@ -2,11 +2,13 @@
     width: 100%;
     background-color: #131313;
     padding: 30px 0;
+
 }
 
 .topmovies {
     width: 85%;
     margin: auto;
+    padding-bottom: 70px;
 }
 
 .topmovies h1 {
@@ -110,6 +112,7 @@
     font-size: 0.9rem;
 }
 
+
 @media (max-width:1307px) {
     .topmovies {
         width: 90%;
@@ -186,4 +189,53 @@
     }
 
 
+}
+
+/* =================== MOVIE PREVIEW =================================== */
+.moviepreview {
+    width: 100%;
+    background: url(../Images/manofgod.jpg);
+    background-position: center;
+}
+
+.movieprviewback {
+    width: 100%;
+    background: linear-gradient(to right, #00000094, #000000c7);
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.moviep .mpname {
+    color: white;
+}
+
+.moviep .mpname span {
+    color: #42be42;
+    font-size: 4rem;
+}
+
+.moviep>div {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+.moviep button {
+
+    background: #42be42;
+    border: none;
+    color: white;
+    padding: 15px 40px;
+    font-size: 1rem;
+    border-radius: 40px;
+}
+
+.moviep button:hover {
+    transition: 0.9s ease-out;
+    background: none;
+    border: 1px solid #42be42;
+    transform: translateY(10px);
 }

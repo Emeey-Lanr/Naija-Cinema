@@ -7,6 +7,7 @@ const App = () => {
     return (
         <>
             <HeaderSection />
+
             <Allmoviessection />
             <FAQ />
             <Footer />
